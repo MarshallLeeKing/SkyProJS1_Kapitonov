@@ -1,0 +1,29 @@
+@media (max-width: 1239px) {
+    .center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+    .group_grid_item {
+        height: 268px;
+    }
+    .footer_logo_wrap {
+        display: none;
+    }
+
+.hidden_space {
+    display: none;
+}
+
+    .main_header {
+        width: 100%;
+    }
+
+    .special_items {
+        column-gap: 29px;
+    }
+    
+    .catalog_items {
+        -webkit-column-gap: 29.18px;
+        column-gap: 29px;
+    }
+}
