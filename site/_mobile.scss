@@ -1,0 +1,229 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: calc(50% - 171.5px);
+        padding-right: calc(50% - 171.5px);
+    }
+    .index_head {
+        height: 100vh;
+        margin-bottom: 0px;
+    }
+    .catalog_head {
+        height: 100vh;
+        &_text {
+            text-align: center;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 59px;
+            margin: 0;
+            height: 100%;
+            padding-top: calc(50vh - 177px);
+        }
+    }
+    .cart {
+        &_items {
+            min-width: 0px;
+        }
+        &_wrapper {
+            row-gap: 9px;
+        }
+        &_header {
+            display: none;
+        }
+        &_img {
+            display: none;
+        }
+        &_head {
+            height: 100vh;
+            margin-bottom: 92px;
+            &_text {
+                text-align: center;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 59px;
+                margin: 0;
+                height: 100%;
+                padding-top: calc(50vh - 177px);
+            }
+        }
+        &_item {
+            margin-bottom: 0px;
+            &_name {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                margin-bottom: 8px;
+            }
+            &_text {
+                max-width: 253px;
+                font-size: 12px;
+                line-height: 15px;
+                margin-bottom: 15px;
+            }
+            &_price {
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 15px;
+                margin-bottom: 15px;
+            }
+        }
+        &_actions {
+            margin-bottom: 24px;
+        }
+    }
+    .clear,
+    .continue {
+        width: 166px;
+        margin-top: 0px;
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 48px;
+    }
+    .ordering {
+        min-width: 100%;
+        margin-bottom: 16px;
+    }
+    .navigation {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        row-gap: 16px;
+    }
+    .path {
+        font-size: 14px;
+        line-height: 32px;
+    }
+    .order {
+        font-size: 14px;
+        line-height: 17px;
+        &_option {
+            font-size: 14px;
+            line-height: 17px;
+        }
+    }
+    .main {
+        text-align: center;
+        &_header {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 59px;
+            text-align: center;
+            margin-top: 47px;
+            margin-bottom: 16px;
+            height: 100%;
+            width: 100%;
+        }
+        &_text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 32px;
+            text-align: center;
+            margin-bottom: 16px;
+        }
+        &_link {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+    .hidden_space {
+        display: none;
+    }
+
+    .group {
+        margin-bottom: 0px;
+        &_grid {
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 16px;
+        }
+        &_header {
+            font-size: 24px;
+            line-height: 29px;
+            margin-top: 32px;
+            margin-bottom: 32px;
+        }
+        &_grid_item {
+            font-size: 28px;
+            line-height: 34px;
+            grid-column: 1 / -1;
+            &_big {
+                height: 244px;
+            }
+            &_small {
+                height: 375px;
+            }
+        }
+    }
+    .menu,
+    .search_input {
+        display: none;
+    }
+    .header_mobo {
+        display: flex;
+        align-items: center;
+        column-gap: 32px;
+    }
+    .nav_bar {
+        padding-top: 50px;
+        border-bottom: none;
+    }
+    .special {
+        margin-bottom: 0px;
+        &_items {
+            row-gap: 32px;
+        }
+        &_offer {
+            font-size: 24px;
+            line-height: 29px;
+            margin-top: 32px;
+            margin-bottom: 32px;
+            &_description {
+                margin-bottom: 9px;
+            }
+            &_price {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                &_old {
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+    .item_image {
+        height: 227px;
+        margin-bottom: 9px;
+    }
+    .item_header {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 9px;
+    }
+    .catalog {
+        margin-bottom: 0px;
+    }
+    .catalog_header {
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 37px;
+        margin-bottom: 32px;
+    }
+    .catalog_items {
+        row-gap: 33px;
+    }
+    .catalog_link {
+        margin-bottom: 32px;
+    }
+    footer {
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: center;
+        column-gap: 135px;
+        padding-bottom: 33px;
+    }
+}
